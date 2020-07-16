@@ -1,0 +1,26 @@
+{
+  "name": "threeJS-demo",
+  "version": "1.0.0",
+  "description": "threeJS-demo",
+  "main": "dist/index.js",
+  "keywords": [
+    "threeJS"
+  ],
+  "scripts": {
+    "build:prod": "fish build prod vue",
+    "build:test": "fish build test vue",
+    "start": "fish start vue",
+    "upload": "fish upload",
+    "update": "auto-vers -t"
+  },
+  "author": "fish uncle",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4"
+  },
+  "devDependencies": {
+    "@fish/cli": "^1.1.0",
+    "auto-vers": "^1.0.3"
+  }
+}
