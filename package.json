@@ -7,8 +7,6 @@
 		"vuejs",
 		"pug",
 		"scss",
-		"webgl",
-		"threejs",
 		"webrtc",
 		"face-detection",
 		"vue3"
